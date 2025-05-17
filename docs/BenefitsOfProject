@@ -1,0 +1,7 @@
+Benefits of Serverless for IoT:
+
+Auto-scaling: Handles thousands of concurrent IoT device requests.
+
+Cost-efficient: You only pay when code is executed.
+
+Quick deployment: Push new features without full server setup.

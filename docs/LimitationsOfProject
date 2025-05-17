@@ -1,0 +1,5 @@
+Issue	                          Details
+
+Cold Starts	                  May introduce latency for the first request.
+Execution Time Limit	      IBM Functions have a timeout (usually 5 mins).
+DB Connections	              Ensure your MongoDB usage is optimized for short-lived connections.

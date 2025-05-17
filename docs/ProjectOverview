@@ -1,0 +1,10 @@
+Project Summary:
+
+We’re building a system where IoT devices send real-time data (e.g., temperature, humidity) to a backend via MQTT or HTTP, triggering IBM Cloud Functions. 
+These functions process the data and store it in a MongoDB database. The frontend (React) shows real-time updates using WebSockets.
+
+Project Overview:
+
+IoT Device ──▶ IBM Cloud Function ──▶ MongoDB Atlas
+                       │
+                       └──▶ Notify MERN App (via WebSocket / REST API)
